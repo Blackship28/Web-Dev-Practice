@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Booleans</title>
+  </head>
+  <body>
+    <script>
+      true;
+      false;
+      console.log(3 > 10);
+
+      if (false) {
+        console.log("helo");
+      } else {
+        console.log("falseeee");
+      }
+      const age = 30; //best practice, if let just use when var changes
+
+      if (30 < 10) {
+        console.log("can drive");
+      } else {
+        console.log("nubbb");
+      }
+
+      //if statement shrtcut
+      const result = 0 ? "truthy" : "falsy"; //if result = 0 -> falsy
+      console.log(result);
+
+      false && console.log("hello"); //giuard operator &&
+
+      const message = false && "hello"; //if msg = false, msg will be store false
+      console.log(message);
+    </script>
+  </body>
+</html>

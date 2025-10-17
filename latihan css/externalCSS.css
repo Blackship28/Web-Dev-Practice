@@ -1,0 +1,38 @@
+h1 {
+  /*color: yellow;
+  font-family: Arial, Courier, monospace; /*jenis font
+  font-size: 100px; /*size font -> pv,%,em*/
+  /*tfont-weight: bold; ebal font
+  -> lighter, normal, 100-900, bold, bolder
+  font-variant: small-caps; /*ubah font 
+  small capp -> normal, smallcaps
+  font-style: italic;
+  text-align: center;
+
+ 
+  {font-style: italic;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  } boleh jadi - >   {font: italic normal bold 16px(WAJIB)/18px helvetica,arial,sans-serif(WAJIB);}
+   */
+  font-size: 50px;
+  color: yellowgreen;
+  text-align: center;
+  text-decoration: line-through; /*none, underline, overtline, linthrough*/
+  text-transform: uppercase;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blueviolet;
+  line-height: 30px; /*tinggi line - px,%,em*/
+  text-align: left;
+  text-indent: 50px; /*ada space sblum text start*/
+  letter-spacing: 10px; /*jarak huruf*/
+  word-spacing: 20px;
+}
+a {
+  text-decoration: none;
+}

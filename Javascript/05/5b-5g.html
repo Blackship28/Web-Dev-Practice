@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Name</title>
+  </head>
+  <body>
+    <button
+      onclick="
+      let total = cost; 
+      let tax = cost * 0.1;
+      console.log(`Tax (10%): ${tax}`);
+      console.log(`Coffee Cust ${total + tax}`);
+      
+      
+      "
+    >
+      Coffee Cost
+    </button>
+
+    <script>
+      const Coffee = 5;
+      const bagel = 3;
+      const soup = 9;
+      let cost = Coffee + 2 * bagel + soup;
+    </script>
+  </body>
+</html>
