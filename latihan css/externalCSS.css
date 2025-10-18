@@ -23,6 +23,14 @@ h1 {
   text-align: center;
   text-decoration: line-through; /*none, underline, overtline, linthrough*/
   text-transform: uppercase;
+  background-color: cornsilk;
+
+  /*background
+    - color (wrna bckground)
+    - image (gmbr utk bckground)
+    - position (posisi gmbr bckground)
+    - repeat (jenis pengulangan gmbr bckground)
+    */
 }
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -35,4 +43,7 @@ p {
 }
 a {
   text-decoration: none;
+}
+body {
+  background-color: lightgrey;
 }
