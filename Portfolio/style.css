@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading-container {
+  border: 3.5px solid rgb(251, 0, 255);
+  position: relative;
+}
+h2.font-tajuk {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+}
+.tajuk {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*container untuk pegang 3 box*/
+.container {
+  border: 3.5px solid red;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.title-besar {
+  border: 3.5px solid blue;
+  height: fit-content;
+  display: inline-block;
+}
+.container > .intro-text {
+  border: 3.5px solid rgb(51, 251, 6);
+  position: absolute;
+  width: 80%;
+  margin-top: 35px;
+}
+/* Apply styles only to images inside .container */
+.container img {
+  border: 3.5px solid rgb(6, 194, 251);
+  padding: 10px 10px;
+  width: 100px;
+}
+/* Make only avatar/profile images circular */
+img.avatar {
+  border-radius: 50%;
+}
